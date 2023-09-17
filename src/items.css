@@ -1,0 +1,68 @@
+.gbox{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.container1{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center ;
+    padding: 10px 0px;
+}
+
+.card{
+ text-align: center;
+ border: 2px solid ;
+ height: auto;
+ width: auto;
+ padding-bottom: 20px;
+}
+
+.image{
+    height: 200px;
+    border-bottom: 2px double black;
+}
+
+
+.heading{
+    font-size: 20px;
+
+}
+.prsection{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    align-items: center;
+}
+.btn{
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    border-color: red;
+    
+}
+.atcbtn{
+    padding: 8px 12px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 20px;
+    border-color: red;
+    margin-top: 25px;
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(31, 3, 31);
+    
+}
+
+.logocontainer{
+    max-width: 200px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(255, 60, 0);
+}
